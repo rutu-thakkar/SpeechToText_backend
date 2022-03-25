@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username" : "voice_dev",
+    "password": "voice22@iview",
+    "database": "voice_analysis",
+    "host": "internal-databases.cwq4vr0vajz0.ap-south-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username" : "voice_dev",
+    "password": "voice22@iview",
+    "database": "voice_analysis",
+    "host": "internal-databases.cwq4vr0vajz0.ap-south-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username" : "voice_dev",
+    "password": "voice22@iview",
+    "database": "voice_analysis",
+    "host": "internal-databases.cwq4vr0vajz0.ap-south-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}
