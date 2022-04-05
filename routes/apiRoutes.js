@@ -1,4 +1,6 @@
 const express = require("express");
+require("dotenv").config();
+
 const route = express.Router();
 const {
   getAllAudios,

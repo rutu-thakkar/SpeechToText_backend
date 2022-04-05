@@ -3,8 +3,12 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = express();
 const db = require("./models");
+require("dotenv").config();
+
 const port = process.env.PORT || 3000;
 
+app.use(cors());
+app.options("*", cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/", require("./routes/apiRoutes"));
