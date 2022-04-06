@@ -98,7 +98,7 @@ const getAudio = (req, res) => {
         res.send("No Data found");
         return;
       }
-      res.send(data);
+      res.send(data.audioFilePath);
     })
     .catch((error) => {
       res.send("Error in getting audio", error.message);
